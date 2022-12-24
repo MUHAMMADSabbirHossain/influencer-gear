@@ -10,6 +10,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
+    background-color: #AAAAAA;
 }
 
 
@@ -105,8 +106,6 @@ Influencer */
 
 
 /* enterprenuer logo */
-
-
 hr {
     color: #C0CCDA;
     margin: 0 165px;
@@ -116,4 +115,83 @@ hr {
     display: flex;
     justify-content: space-between;
     padding: 36px 165px;
+}
+
+
+
+
+
+
+
+
+
+/* popular collection */
+.popular-collections>p {
+    font-weight: 600;
+    font-size: 28px;
+    color: #3A3A3A;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.collections {
+    padding: 0 157px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+
+.collection-details {
+    padding: 14px;
+    background-color: #FFFFFF;
+
+}
+
+.collection-details img {
+    width: 300px;
+    border-radius: 5px;
+}
+
+.collection-name {
+    font-weight: 500;
+    font-size: 28px;
+    color: #18191F;
+    margin-top: 16px;
+    margin-bottom: 6px;
+}
+
+.price {
+    font-weight: 400;
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.fa-star,
+.fa-star-half-stroke {
+    font-size: 16px;
+    color: #FB8200;
+}
+
+.rating {
+    font-size: 14px;
+    color: #5E6366;
+}
+
+.product-details h5 {
+    margin: 0;
+    color: #787885;
+}
+
+.see-more {
+    margin-top: 50px;
+    padding: 0 197px;
+    font-weight: 700;
+    font-size: 16px;
+    color: rgba(224, 44, 109, 0.87);
+    display: flex;
+    align-content: center;
+    justify-content: end;
+
 }
