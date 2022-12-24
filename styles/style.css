@@ -92,5 +92,22 @@ Influencer */
 }
 
 .preebook-image img {
+    margin-left: 65px;
     width: 440px;
+}
+
+
+
+
+
+
+
+
+
+/* enterprenuer logo */
+.enterprenuer-logos {
+    /* margin: 0 120px; */
+    display: flex;
+    justify-content: space-between;
+    padding: 0 165px;
 }
