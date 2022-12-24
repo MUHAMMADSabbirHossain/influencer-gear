@@ -105,9 +105,15 @@ Influencer */
 
 
 /* enterprenuer logo */
-.enterprenuer-logos {
-    /* margin: 0 120px; */
+
+
+hr {
+    color: #C0CCDA;
+    margin: 0 165px;
+}
+
+.logos {
     display: flex;
     justify-content: space-between;
-    padding: 0 165px;
+    padding: 36px 165px;
 }
