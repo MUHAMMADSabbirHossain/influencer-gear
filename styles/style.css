@@ -9,6 +9,7 @@
 /* common and utilize */
 body {
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 
 
@@ -20,17 +21,19 @@ body {
 /* heading */
 .heading-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 0px 120px;
 }
 
 .page-title h2 {
     font-weight: 700;
     font-size: 24px;
+    color: #3A3A3A;
 }
 
 nav {
     display: flex;
-    align-items: center;
+    align-content: center;
 }
 
 nav a {
@@ -38,6 +41,56 @@ nav a {
 }
 
 nav h3 {
-    color: black;
+    color: #3A3A3A;
     margin-left: 25px;
+}
+
+
+
+
+
+
+
+
+/* Start your Journey as 
+Influencer */
+
+.start-container {
+    display: flex;
+    padding: 120px;
+}
+
+.start-container>article {
+    width: 50%;
+}
+
+.start-container>article>h1 {
+    font-weight: 700;
+    font-size: 52px;
+    color: #3A3A3A;
+
+
+}
+
+.start-container>article>p {
+    font-weight: 600;
+    font-size: 16px;
+    color: #3A3A3A;
+}
+
+.Preebook-button {
+    color: white;
+    background-color: #E02C6D;
+    width: 196px;
+    height: 44px;
+    border-radius: 41px;
+    padding: 10px 24px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.preebook-image img {
+    width: 440px;
 }
