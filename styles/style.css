@@ -251,3 +251,52 @@ hr {
 .material-symbols-outlined {
     margin-left: 8px;
 }
+
+
+
+
+
+
+
+
+
+
+/* footer */
+footer {
+    color: #FFFFFF;
+    background-color: #0A0826;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footer-container {
+    margin: 50px 0;
+}
+
+.footer-container h3 {
+    font-weight: 700;
+    font-size: 24px;
+    margin: 0;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-container h5 {
+    font-weight: 700;
+    font-size: 14px;
+    color: #D9DBE1;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 3px;
+    margin: 3px;
+}
+
+.footer-container p {
+    font-weight: 700;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-around;
+    margin: 17px 0 0 0;
+}
