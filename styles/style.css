@@ -260,7 +260,6 @@ hr {
 
 
 
-
 /* footer */
 footer {
     color: #FFFFFF;
@@ -315,14 +314,8 @@ footer {
 
 
 
-
-
-
 /* media query for mobile*/
 @media (max-width: 500px) {
-
-
-
 
     /* heading */
     .heading-container {
@@ -352,14 +345,6 @@ footer {
         color: #3A3A3A;
         margin-left: 25px;
     } */
-
-
-
-
-
-
-
-
 
 
 
@@ -430,17 +415,6 @@ footer {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
     /* enterprenuer logos */
     hr {
         color: #C0CCDA;
@@ -460,17 +434,6 @@ footer {
         height: 18.84px;
 
     }
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -510,13 +473,6 @@ footer {
 
 
     }
-
-
-
-
-
-
-
 
 
 
@@ -595,16 +551,7 @@ footer {
 
 
 
-
-
-
-
-
-
-
-
-
-
+    /* footer */
     footer {
         color: #FFFFFF;
         background-color: #0A0826;
@@ -658,6 +605,8 @@ footer {
 
 
 
+
+
 @media (max-width: 1024px) {
 
     /* heading */
@@ -688,13 +637,6 @@ footer {
         color: #3A3A3A;
         margin-left: 25px;
     } */
-
-
-
-
-
-
-
 
 
 
@@ -769,14 +711,6 @@ footer {
 
 
 
-
-
-
-
-
-
-
-
     /* enterprenuer logos */
     hr {
         color: #C0CCDA;
@@ -796,15 +730,6 @@ footer {
         height: 18.84px;
 
     }
-
-
-
-
-
-
-
-
-
 
 
 
@@ -846,11 +771,6 @@ footer {
 
 
     }
-
-
-
-
-
 
 
 
@@ -933,20 +853,7 @@ footer {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    /* footer */
     footer {
         color: #FFFFFF;
         background-color: #0A0826;
@@ -991,6 +898,5 @@ footer {
         justify-content: space-around;
         margin: 17px 0 0 0;
     }
-
 
 }
