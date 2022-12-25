@@ -293,6 +293,11 @@ footer {
     margin: 3px;
 }
 
+.fa-copyright {
+    align-self: center;
+    margin: 0 5px;
+}
+
 .footer-container p {
     font-weight: 700;
     font-size: 24px;
@@ -300,3 +305,18 @@ footer {
     justify-content: space-around;
     margin: 17px 0 0 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media query for mobile*/
+@media all and (max-width: 500px) {}
