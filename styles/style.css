@@ -13,12 +13,6 @@ body {
     background-color: #AAAAAA;
 }
 
-
-
-
-
-
-
 /* heading */
 .heading-container {
     display: flex;
@@ -144,14 +138,19 @@ hr {
 }
 
 .collection-details {
-    padding: 14px;
+    margin: 10px;
+    padding: 15px;
     background-color: #FFFFFF;
-
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
 }
 
 .collection-details img {
-    width: 300px;
-    border-radius: 5px;
+    width: 100%;
+    border-radius: 15px;
 }
 
 .collection-name {
@@ -163,9 +162,9 @@ hr {
 }
 
 .price {
+    color: #E02C6D;
     font-weight: 400;
     font-size: 24px;
-    color: rgba(0, 0, 0, 0.87);
 }
 
 .fa-star,
